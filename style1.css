@@ -1,0 +1,96 @@
+
+body {
+    background-color: #f0f4f8;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #475569;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+nav a {
+    color: #2563eb;
+    text-decoration: none;
+    margin: 0;
+    padding: 8px 4px;
+    font-weight: bold;
+}
+
+section {
+    margin-top: 35px;
+}
+
+section h2 {
+    color: #1e293b;
+    font-size: 28px;
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 8px;
+}
+
+#home {
+    margin-bottom: 10px;
+}
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0;
+    list-style: none;
+}
+
+#skills li {
+    background-color: white;
+    padding: 10px 16px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+#projects div,
+#education div {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+#coursework ul,
+#achievements ul {
+    line-height: 2;
+}
+
+#contact a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 15px;
+    background-color: #1e293b;
+    border-radius: 10px;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+}
